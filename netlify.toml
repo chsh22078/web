@@ -1,0 +1,3 @@
+[build]
+  command = "npm run build"  # ビルド時に実行するコマンド
+  publish = "build"          # デプロイするディレクトリ (Reactなら "build", Vueなら "dist")
