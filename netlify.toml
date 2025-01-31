@@ -1,6 +1,6 @@
 [build]
   command = "npm run build"  # ビルドコマンド
-  publish = "build"           # ビルド後のフォルダ（Reactは "build"、VueやViteは "dist"）
+  publish = "dist"           # ビルド後のフォルダ（Reactは "build"、VueやViteは "dist"）
 
 [[redirects]]
   from = "/*"
